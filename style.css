@@ -1,0 +1,82 @@
+.item1 {
+    background-image: url(WallpaperDog-745068.jpg);
+    flex: 1;
+    color: white;
+    height: 70vh;
+    background-size: cover;
+    
+  }
+.item1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h2{
+    color: #feb914;
+  }
+.item2 img{
+  border-radius: 60%;
+  margin-top: -60px;
+  margin-left: 5px;
+  
+}
+/* .item2 {
+      flex: 1;
+      margin: 5px;
+      text-align: center;
+      color: rgb(3, 3, 3);
+      height: 50vh;
+    } */
+.item3 img{
+      border-radius: 60%;
+      box-sizing: border-box;
+     
+    
+    }
+  #footer{
+      background-color: gray;
+      display: flex;
+      text-align: center;
+      font-size: 12px;
+      border-top: #feb914 10px solid;
+   }
+  /* Su Flexbox */
+   
+  .flex {
+    display: flex;
+    min-height: 100px;
+  }
+  /* .header{
+    width: 100%;
+  }  */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header{
+    text-align: center;
+  }
+  .header-search{
+    background-color: gray;
+    border-top: #feb914 10px solid;
+  }
+  @media screen and (max-width: 600px) {
+    .item2 img {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .item3 img {
+      display: flex;
+      margin-left: 110px;
+      
+    }
+  }
+  .item3{
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
