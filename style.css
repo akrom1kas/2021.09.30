@@ -3,8 +3,7 @@
     flex: 1;
     color: white;
     height: 70vh;
-    background-size: cover;
-    
+    background-size: cover; 
   }
 .item1 h1{
     position: absolute;
@@ -27,8 +26,6 @@
 .item3 img{
       border-radius: 60%;
       box-sizing: border-box;
-     
-    
     }
   #footer{
       background-color: gray;
@@ -60,7 +57,7 @@
   @media screen and (max-width: 600px) {
     .item3 img {
       display: flex;
-      margin-left: 120px;
+      margin-left: 130px;
       
     }
   }
