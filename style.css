@@ -21,13 +21,9 @@
   margin-left: 5px;
   
 }
-/* .item2 {
-      flex: 1;
-      margin: 5px;
-      text-align: center;
-      color: rgb(3, 3, 3);
-      height: 50vh;
-    } */
+.header-search h1{
+  margin-right: 500px;
+}
 .item3 img{
       border-radius: 60%;
       box-sizing: border-box;
@@ -41,15 +37,10 @@
       font-size: 12px;
       border-top: #feb914 10px solid;
    }
-  /* Su Flexbox */
-   
   .flex {
     display: flex;
     min-height: 100px;
   }
-  /* .header{
-    width: 100%;
-  }  */
   .main {
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +62,11 @@
       display: flex;
       margin-left: 110px;
       
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .header-search h1 {
+      margin-right: 0;
     }
   }
   .item3{
