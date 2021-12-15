@@ -38,17 +38,17 @@ h2{
 }
 #footer{
       background-color: gray;
-      display:flex;
+      display: flex;
       font-size: 12px;
       border-top: #feb914 10px solid;
       width: 100%;
-   }
-#footer ul{
-  justify-content: center;
 }
-#footer ul li{
-    list-style:none;
+#footer a{
+  display: flex;
+  text-align: center;
+  position: relative;
 }
+
   /* .flex {
     display: flex;
     min-height: 100px;
@@ -76,19 +76,16 @@ h2{
       margin-right: 0;
     }
   }
-  /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     #footer {
-      display:unset;
+      display:inline-block;
+      
     }
-  } */
-  .item3{
-    display: flex;
   }
-  .column {
-    flex: 33.33%;
-    padding: 5px;
+  @media screen and (max-width: 600px) {
+    #footer ul {
+      display:inline-block;
+      margin-left: 130px;
+    }
   }
-.footer-1{
-  text-align: center;
-  position:static;
-}
+
