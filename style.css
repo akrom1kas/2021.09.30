@@ -25,7 +25,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-h2{
+h2, h3{
     color: #feb914;
   }
 .item2{
@@ -47,7 +47,7 @@ h2{
       width: 100%;
 }
 #footer ul{
-  margin-left: 150px;
+  margin-left: 160px;
 }
 #footer a{
   display: flex;
