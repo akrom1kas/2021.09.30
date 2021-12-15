@@ -45,18 +45,21 @@ h2, h3{
   border-top: #feb914 10px solid;
   display: flex;
   font-size: 12px;
-  
   width: 100%;
 }
-#footer ul{
+/* #footer ul{
   margin-left: 160px;
+} */
+#footer ul{
+  display: inline-block;
+margin-left: 155px;
 }
 #footer a{
   color: white;
   display: flex;
   text-align: center;
   text-decoration: none;
- 
+
 }
   @media screen and (max-width: 600px) {
     .item2 img {
