@@ -13,20 +13,21 @@
   margin: 10px;
 }
 .item1 {
-    background-image: url(WallpaperDog-745068.jpg);
-    flex: 1;
-    color: white;
-    height: 60vh;
-    background-size: cover; 
+  background-image: url(WallpaperDog-745068.jpg);
+  color: white;
+  background-size: cover; 
+  flex: 1;
+  height: 60vh;
+ 
   }
 .item1 h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 h2, h3{
-    color: #feb914;
+  color: #feb914;
   }
 .item2{
   position: relative;
@@ -40,31 +41,23 @@ h2, h3{
   border-radius: 60%;
 }
 #footer{
-      background-color: gray;
-      display: flex;
-      font-size: 12px;
-      border-top: #feb914 10px solid;
-      width: 100%;
+  background-color: gray;
+  border-top: #feb914 10px solid;
+  display: flex;
+  font-size: 12px;
+  
+  width: 100%;
 }
 #footer ul{
   margin-left: 160px;
 }
 #footer a{
+  color: white;
   display: flex;
   text-align: center;
   text-decoration: none;
-  color: white;
-}
-  /* .flex {
-    display: flex;
-    min-height: 100px;
-  } */
-  /* .main {
-    display: flex;
-    flex-wrap: wrap;
-  } */
  
-
+}
   @media screen and (max-width: 600px) {
     .item2 img {
       margin-top: 0;
