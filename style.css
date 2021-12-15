@@ -71,7 +71,12 @@ h2{
     .item3 img{
       display: flex;
       margin-left: 140px;
-      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .item3 h3{
+      display: flex;
+      margin-left: 170px;
     }
   }
   @media screen and (max-width: 600px) {
