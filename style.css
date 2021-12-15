@@ -9,6 +9,9 @@
   background-color: gray;
   border-top: #feb914 10px solid;
 }
+.header-search input{
+  margin: 10px;
+}
 .item1 {
     background-image: url(WallpaperDog-745068.jpg);
     flex: 1;
@@ -65,7 +68,7 @@ h2{
     }
   }
   @media screen and (max-width: 600px) {
-    .item3 img {
+    .item3 img{
       display: flex;
       margin-left: 130px;
       
