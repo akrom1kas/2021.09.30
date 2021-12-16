@@ -36,6 +36,10 @@ h2, h3{
 }
 .item3 img{
   border-radius: 60%;
+  display: inline;
+}
+.item4 img{
+  border-radius: 60%;
 }
 #footer{
   background-color: gray;
@@ -54,38 +58,37 @@ h2, h3{
   text-align: center;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .header-search h1 {
+    margin-right: 0;
+  }
+}
   @media screen and (max-width: 600px) {
-    .item2 img {
+  .item2 img {
       margin-top: 0;
-      
     }
   }
   @media screen and (max-width: 600px) {
-    .item3 img{
+  .item3 img{
       display: flex;
       margin-left: 140px;
     }
   }
   @media screen and (max-width: 600px) {
-    .item3 h3{
+  .item3 h3{
       display: flex;
       margin-left: 170px;
     }
   }
   @media screen and (max-width: 600px) {
-    .header-search h1 {
-      margin-right: 0;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    #footer {
+  #footer {
       display:inline-block;
     }
   }
   @media screen and (max-width: 600px) {
-    #footer ul {
+  #footer ul {
       display:inline-block;
       margin-left: 130px;
     }
   }
-
