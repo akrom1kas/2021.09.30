@@ -34,12 +34,10 @@ h2, h3{
   border-radius: 60%;
   margin-top: -60px;
 }
+
 .item3 img{
   border-radius: 60%;
   display: inline;
-}
-.item4 img{
-  border-radius: 60%;
 }
 #footer{
   background-color: gray;
