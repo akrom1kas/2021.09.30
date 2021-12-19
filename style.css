@@ -68,13 +68,13 @@ h2, h3{
   @media screen and (max-width: 600px) {
   .item3 img{
       display: flex;
-      margin-left: 120px;
+      margin-left: 130px;
     }
   }
   @media screen and (max-width: 600px) {
   .item3 h3{
       display: flex;
-      margin-left: 180px;
+      margin-left: 160px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -91,7 +91,7 @@ h2, h3{
   @media screen and (max-width: 600px) {
     #footer ul h2{
         display:inline-block;
-        text-indent: -10px
+        text-indent: -20px
       }
     }
 
