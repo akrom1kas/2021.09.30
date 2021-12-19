@@ -91,7 +91,7 @@ h2, h3{
   @media screen and (max-width: 600px) {
     #footer ul h2{
         display:inline-block;
-        text-indent: -20px
+        text-indent: -10px
       }
     }
 
