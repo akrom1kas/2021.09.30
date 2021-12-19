@@ -74,7 +74,7 @@ h2, h3{
   @media screen and (max-width: 600px) {
   .item3 h3{
       display: flex;
-      margin-left: 160px;
+      margin-left: 180px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -85,6 +85,13 @@ h2, h3{
   @media screen and (max-width: 600px) {
   #footer ul {
       display:inline-block;
-      margin-left: 110px;
+      margin-left: 120px;
     }
   }
+  @media screen and (max-width: 600px) {
+    #footer ul h2{
+        display:inline-block;
+        text-indent: -10px
+      }
+    }
+
