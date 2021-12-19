@@ -34,10 +34,8 @@ h2, h3{
   border-radius: 60%;
   margin-top: -60px;
 }
-
 .item3 img{
   border-radius: 60%;
-  display: inline;
 }
 #footer{
   background-color: gray;
@@ -70,13 +68,13 @@ h2, h3{
   @media screen and (max-width: 600px) {
   .item3 img{
       display: flex;
-      margin-left: 140px;
+      margin-left: 120px;
     }
   }
   @media screen and (max-width: 600px) {
   .item3 h3{
       display: flex;
-      margin-left: 170px;
+      margin-left: 160px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -87,6 +85,6 @@ h2, h3{
   @media screen and (max-width: 600px) {
   #footer ul {
       display:inline-block;
-      margin-left: 130px;
+      margin-left: 110px;
     }
   }
