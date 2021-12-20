@@ -83,7 +83,7 @@ h2, h3{
       width: 150px;
     }
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   .item3 h3{
       display: flex;
       margin-left: 170px;
