@@ -33,7 +33,7 @@ h2, h3{
 }
 .item2 img{
   border-radius: 60%;
-  margin-top: -60px;
+  margin: -60px 60px 0px 70px;
 }
 .item3 img{
   border-radius: 60%;
@@ -56,6 +56,11 @@ h2, h3{
 }
 
 @media screen and (max-width: 600px) {
+  .header-search input{
+    margin: 10px;
+    }
+  }
+@media screen and (max-width: 600px) {
   .header-search h1 {
     margin-right: 0;
   }
@@ -63,6 +68,7 @@ h2, h3{
 @media screen and (max-width: 600px) {
   .item2 img {
       margin-top: 0;
+      margin: 0;
     }
   }
  @media screen and (max-width: 600px) {
@@ -94,10 +100,3 @@ h2, h3{
         text-indent: -10px
       }
     }
-
-@media screen and (max-width: 600px) {
-      .header-search input{
-        margin: 10px;
-        }
-      }
-
