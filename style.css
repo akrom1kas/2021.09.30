@@ -7,10 +7,11 @@
   border-top: #feb914 10px solid;
 }
 .header-search h1{
-  margin-right: 500px;
+  margin-right: 600px;
 }
 .header-search input{
   margin: 10px;
+  margin-left: 450px;
 }
 .item1 {
   background-image: url(WallpaperDog-745068.jpg);
@@ -42,7 +43,6 @@ h2, h3{
   border-top: #feb914 10px solid;
   display: flex;
   font-size: 12px;
-  width: 100%;
 }
 #footer ul{
   display: inline-block;
@@ -60,38 +60,44 @@ h2, h3{
     margin-right: 0;
   }
 }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .item2 img {
       margin-top: 0;
     }
   }
-  @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
   .item3 img{
       display: flex;
       margin-left: 130px;
     }
   }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .item3 h3{
       display: flex;
       margin-left: 160px;
     }
   }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #footer {
       display:inline-block;
     }
   }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #footer ul {
       display:inline-block;
       margin-left: 120px;
     }
   }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #footer ul h2{
         display:inline-block;
         text-indent: -10px
       }
     }
+
+@media screen and (max-width: 600px) {
+      .header-search input{
+        margin: 10px;
+        }
+      }
 
