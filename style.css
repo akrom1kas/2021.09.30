@@ -45,8 +45,11 @@ h2, h3{
   font-size: 12px;
 }
 #footer ul{
+  margin-left: 175px;
+  margin: 0 auto;
+}
+#footer ul li{
   display: inline-block;
-  margin-left: 155px;
 }
 #footer a{
   color: white;
@@ -100,6 +103,6 @@ h2, h3{
 @media screen and (max-width: 600px) {
     #footer ul h2{
         display:inline-block;
-        text-indent: -10px
+        text-indent: -10px;
       }
     }
