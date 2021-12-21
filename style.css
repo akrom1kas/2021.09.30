@@ -4,10 +4,12 @@
 }
 .header-search{
   background-color: gray;
-  border-top: #feb914 10px solid;
+  padding: 5px;
 }
 .header-search h1{
   margin-right: 600px;
+  position: relative;
+  top: 60px;
 }
 .header-search input{
   margin: 10px;
@@ -45,11 +47,9 @@ h2, h3{
   font-size: 12px;
 }
 #footer ul{
+  display: inline-block;
   margin-left: 175px;
   margin: 0 auto;
-}
-#footer ul li{
-  display: inline-block;
 }
 #footer a{
   color: white;
@@ -57,7 +57,6 @@ h2, h3{
   text-align: center;
   text-decoration: none;
 }
-
 @media screen and (max-width: 600px) {
   .header-search input{
     margin: 10px;
@@ -66,6 +65,7 @@ h2, h3{
 @media screen and (max-width: 600px) {
   .header-search h1 {
     margin-right: 0;
+    top:0;
   }
 }
 @media screen and (max-width: 600px) {
