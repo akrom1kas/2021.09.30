@@ -4,7 +4,7 @@
 }
 .header-search{
   background-color: gray;
-  border-top: #feb914 10px solid;
+ padding: 5px;
 }
 .header-search h1{
   margin-right: 600px;
