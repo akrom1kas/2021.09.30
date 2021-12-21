@@ -4,25 +4,24 @@
 }
 .header-search{
   background-color: gray;
-  padding: 5px;
+  border-top: #feb914 10px solid;
 }
 .header-search h1{
   margin-right: 600px;
   position: relative;
-  top: 60px;
+  top:60px;
 }
 .header-search input{
   margin: 10px;
   margin-left: 450px;
 }
-.hero {
+.item1 {
   background-image: url(WallpaperDog-745068.jpg);
-  background-size: cover; 
   color: white;
+  background-size: cover; 
   height: 60vh;
-  position: relative;
   }
-.hero h1{
+.item1 h1{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,6 +57,7 @@ h2, h3{
   text-align: center;
   text-decoration: none;
 }
+
 @media screen and (max-width: 600px) {
   .header-search input{
     margin: 10px;
