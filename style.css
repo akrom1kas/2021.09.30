@@ -78,8 +78,8 @@ h2, h3{
   .header-search h1 {
     margin-left: 150px;
     top:0;
+    }
   }
-}
 @media screen and (max-width: 600px) {
   .item2 img {
     margin-top: 0;
@@ -116,5 +116,5 @@ h2, h3{
   #footer ul h2{
     display:inline-block;
     text-indent: -10px;
-      }
     }
+  }
