@@ -5,29 +5,31 @@
   text-align: center;
 }
 .header-search h1{
-  margin-right: 600px;
+  display: flex;
   position: relative;
   top:60px;
+  margin-left: 100px;
 }
 .header-search input{
   margin: 10px;
-  margin-left: 450px;
+  margin-left: 250px;
+  position: relative;
 }
-.item1 {
+.item1{
   background-image: url(WallpaperDog-745068.jpg);
   color: white;
   background-size: cover; 
   height: 60vh;
-  }
+}
 .item1 h1{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
+}
 h2, h3{
   color: #feb914;
-  }
+}
 .item2{
   position: relative;
   text-align: center;
@@ -36,12 +38,16 @@ h2, h3{
   position: relative;
   border-radius: 60%;
   margin: -60px 50px 0px 60px;
+  height: 110px;
+  width: 110px;
 }
 .item3{
   text-align: center;
 }
 .item3 img{
   border-radius: 60%;
+  width: 110px;
+  height: 110px;
 }
 #footer{
   background-color: gray;
@@ -51,14 +57,16 @@ h2, h3{
 }
 #footer ul{
   display: inline-block;
-  margin-left: 175px;
   margin: 0 auto;
 }
-#footer a{
+#footer li{
   color: white;
   display: flex;
   text-align: center;
   text-decoration: none;
+}
+#footer h1{
+  color: #feb914;
 }
 
 @media screen and (max-width: 600px) {
@@ -68,45 +76,45 @@ h2, h3{
   }
 @media screen and (max-width: 600px) {
   .header-search h1 {
-    margin-right: 0;
+    margin-left: 150px;
     top:0;
   }
 }
 @media screen and (max-width: 600px) {
   .item2 img {
-      margin-top: 0;
-      margin: 5px;
-      font-size: 10px;
+    margin-top: 0;
+    margin: 0 auto;
+    font-size: 10px;
     }
   }
  @media screen and (max-width: 375px) {
   .item3 img{
-      display: flex;
-      margin-left: 110px;
-      height: 150px;
-      width: 150px;
+    display: flex;
+    margin-left: 110px;
+    height: 150px;
+    width: 150px;
     }
   }
 @media screen and (max-width: 375px) {
   .item3 h3{
-      display: flex;
-      margin-left: 170px;
+    display: flex;
+    margin-left: 170px;
     }
   }
 @media screen and (max-width: 600px) {
   #footer {
-      display:inline-block;
+    display:inline-block;
     }
   }
 @media screen and (max-width: 600px) {
   #footer ul {
-      display:inline-block;
-      margin-left: 130px;
+    display:inline-block;
+    margin-left: 130px;
     }
   }
 @media screen and (max-width: 600px) {
-    #footer ul h2{
-        display:inline-block;
-        text-indent: -10px;
+  #footer ul h2{
+    display:inline-block;
+    text-indent: -10px;
       }
     }
