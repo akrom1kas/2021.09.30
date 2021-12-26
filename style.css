@@ -101,9 +101,9 @@ figure {
   }
 @media screen and (max-width: 600px) {
   figure{
-    display:list-item;
-      }
+    display:inherit;
     }
+  }
 @media screen and (max-width: 375px) {
   .item3 img{
     height: 120px;
