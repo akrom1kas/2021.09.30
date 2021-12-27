@@ -9,9 +9,10 @@
   color: white;
   display: flex;
   margin-left: 140px;
+  margin-bottom: 10px;
 }
 .header-search input{
-  bottom: 50px;
+  bottom: 35px;
   position: relative;
   width: 250px;
 }
