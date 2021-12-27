@@ -56,8 +56,8 @@ figure {
 }
 .item3 img{
   border-radius: 60%;
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
   margin: 25px 20px;
 }
 #footer{
@@ -119,11 +119,6 @@ figure {
 @media screen and (max-width: 600px) {
   #footer li {
     flex-direction: column;
-    margin-right: 50px;
-    }
-  }
-@media screen and (max-width: 600px) {
-  #footer ul h2{
-    text-indent: -10px;
+    margin-right: 40px;
     }
   }
