@@ -6,18 +6,18 @@
   justify-content: center;
 }
 .header-search h1{
+  color: white;
   display: flex;
-  position: relative;
-  top:60px;
-  margin-left: 30px;
+  margin-left: 140px;
 }
 .header-search input{
-  margin: 10px;
-  padding-left: 35px;
+  bottom: 40px;
+  position: relative;
   width: 250px;
 }
 form {
   text-align: right;
+  margin-right: 100px;
 }
 .item1{
   background-image: url(WallpaperDog-745068.jpg);
@@ -81,15 +81,18 @@ figure {
 }
 @media screen and (max-width: 600px) {
   .header-search input{
-    margin: 10px;
-    margin-right: 35px;
+    margin: auto;
+    width: 70%;
+    margin-left: 90px;
+    margin-right: auto;
+    top:0;
     }
   }
 @media screen and (max-width: 600px) {
   .header-search h1 {
-    display: flex;
-    top:0;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
     }
   }
 @media screen and (max-width: 600px) {
